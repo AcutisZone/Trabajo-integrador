@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Datos de Open Graph-->
+    <meta property="og:title" content="Mi Curriculum Vitae">
+    <meta property="og:description" content="Este es mi Curriculum Vitae.">
+    <meta property="og:image" content="https://randomuser.me/api/portraits/men/62.jpg">
+    <meta property="og:image:alt" content="...........">
+    <meta property="og:url" content="https://............">
+    <meta property="og:site_name" content="Curriculum Vitae">
+    <meta property="og:locale" content="es_ES">  
+    <meta property="og:type" content="article">
+
+    <!--Fuentes-->
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800&display=swap" rel="stylesheet">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <!--iconos-->
+    <script src="https://kit.fontawesome.com/04dec14700.js" crossorigin="anonymous"></script>
+
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+
+</head>
+<body>
+
+    <header>
+        <h1>Curriculum Vitae</h1>        
+    </header>
+
+    <!-- en esta seccion estaran los botones para seleccionar la info en aside-->
+    <nav>      
+        <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="curriculum"  >       
+        
+        <button id="informacion_personal"><i class="fa-solid fa-user" ></i>Infor Personal</button><br>            
+        <button id="Estudios"><i class="fa-solid fa-book" ></i>Estudios</button></li><br>
+        <button id="Experiencia Laboral"><i class="fa-solid fa-business-time" ></i>Exp Laboral</button><br>
+        <button id="Habilidades"><i class="fa-solid fa-brain"></i>Habilidades</button><br>
+      
+       
+    </nav>
+
+    <!--Aqui estara la info segun la seleccion del usuario -->
+    <aside>
+        <ul id="datos1">
+            <i id="icon" class="fa-solid fa-user" ></i>
+            <li >Nombre y apellido:</li> <p>Tomas Davis</p>            
+            <li>Direccion:</li><p><i class="fa-solid fa-map-location-dot"></i>Melbourne, Australia</p>
+            <li>correo Electronico:</li> <p><i class="fa-solid fa-envelope"></i>thomasalwyndavis@gmail.com</p>
+            <li>Edad:</li><p>40 años</p>
+        </ul>
+
+        <ol id="datos2" type="I">
+            <i id="icon" class="fa-solid fa-book" ></i>
+            <li>Primaria Completa:</li> <p>Juan Manuel de Rosas</p>
+            <li>Secundario Completo:</li> <p>escuela superior industrial</p>
+            <li>Universitario:</li> <ul>
+                <li>Ingenieria en Informatica (incompleto)</li><p>UNL FICH Santa Fe</p>
+                <li>Tecnicatura en Diseño y Programacion de Videojuegos (incompleto)</li><p>UNL FICH Santa Fe</p>
+                <li>Fundamentos de Programacion y Desarrollo Web</li><p>Ticmas, modalidad a distancia</p>
+                </ul>             
+        </ol>
+
+        <ul id="datos3">
+            <i id="icon" class="fa-solid fa-business-time" ></i>
+            <li>Desarrollador Javascript Senior, <span>Tokenizado</span></li><p>Tokenized es una billetera de Bitcoin para emitir, administrar y comercializar tokens digitales</p>
+            <li>Desarrollador sénior de Javascript, <span>Blockbid</span></li><p>Blockbid es un cambio de moneda criptográfico australiano</p>
+            <li>Desarrollador ,<span> Listium</span></li><p>Desarrollé una aplicación React/Redux muy grande y compleja.</p>
+            <li>Co-Fundador ,<span>Cdnjs</span></li><p>Siguiendo la CDN de Google para jQuery, decidimos iniciar una CDN para los marcos de Javascript menos populares. </p>
+            <li>Desarrollador ,<span> Fundación Frontera Electrónica</span></li><p>Contratado para llevar la campaña de EFF al siguiente nivel mediante la construcción de un centro de acción en Ruby on Rails</p>
+            <li>CTO ,<span> Earbits</span></li><p>Comenzó como desarrollador front-end pero asumió el rol de CTO a principios de 2013</p>
+        </ul>
+
+        <ul id="datos4">
+            <i id="icon" class="fa-solid fa-brain"></i>
+            <p>Soy un desarrollador web completo que puede crear aplicaciones desde cero. 
+            He trabajado principalmente en empresas emergentes, por lo que estoy acostumbrado a desempeñar muchas funciones.
+            Soy un desarrollador muy centrado en el producto que prioriza los comentarios de los usuarios ante todo.
+            Generalmente soy muy flexible cuando investigo nuevos roles.</p>
+        </ul>
+
+        <p id="elegir"><i id="flecha" class="fa-solid fa-left-long"></i>Elije alguna opción</p>
+    
+    </aside>  
+    
+    <script src="JS\funciones.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: aqua;    
+}  
+
+img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    border: 3px solid rgba(0,0,0,.25);
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+h1 {
+    padding: 5px 50px 5px 50px;   
+    text-align: center;   
+    color:grey;
+    background-color: aquamarine;
+    border-left: 6px solid rgb(0, 161, 161);
+}
+
+nav {
+    width: 30%;
+    float: left;
+    background-color: aquamarine;
+    font-weight: bold;
+    border-left: 6px solid rgb(0, 161, 161);
+} 
+
+li{
+    text-decoration: underline;
+} 
+
+aside {
+    width:70%;
+    height: 50%;
+    float: left;
+    background-color: rgb(182, 255, 231); 
+    border-left: 6px solid rgb(112, 158, 143); 
+}
+
+nav button{
+    width: 75%;
+    height: 25%;
+    margin: 5% 14%;
+    padding: 3%;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    
+}
+nav i{
+  font-size: 20px ; 
+  margin-right: 25px; 
+}
+li span{
+    font-weight: lighter;
+    color:rgb(140, 140, 140);
+  
+}
+#elegir{
+    font-size: 35px;
+    color: rgb(175, 174, 174);
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+#flecha{
+    font-size: 35px;
+    color: rgb(175, 174, 174);
+}
+#datos2{
+    display: none ;
+}
+#datos3{
+    display: none ;
+}
+#datos1{
+    display: none ;
+}
+#datos4{
+    display: none ;
+    
+}
+aside p{
+    color: lightslategray;
+}
+ aside i{
+    margin-right: 40px;
+ }
+ #icon{
+    font-size: 250%;
+    margin:1% 40%;
+ }
